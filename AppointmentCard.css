@@ -1,0 +1,23 @@
+.appointment-card {
+  max-width: 350px;
+  margin: 15px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  background: linear-gradient(135deg, #f0f9ff, #ffffff);
+}
+
+.appointment-card:hover {
+  transform: scale(1.02);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-detail {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #333;
+}
